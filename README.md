@@ -47,8 +47,8 @@ myenv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-🔧 ## Set-up
-1️⃣ Create a .env file in the root directory and add your Groq API key:
+## 🔧 Set-up
+ Create a .env file in the root directory and add your Groq API key:
 ```bash
 GROQ_API_KEY=your_groq_api_key
 ```
