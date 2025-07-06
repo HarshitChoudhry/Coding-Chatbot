@@ -32,7 +32,7 @@ if "chain" not in st.session_state:
     )
 
 # 3️ UI: Title
-st.title("Chad PPT")
+st.title("SILVER AI - DON"T CODE TO CODE")
 
 
 # 4️ Handle messages + display history
