@@ -11,7 +11,7 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 if not GROQ_API_KEY:
-    st.error("❌ GROQ_API_KEY not found in environment. Please set it in your .env file.")
+    st.error(" GROQ_API_KEY not found in environment. Please set it in your .env file.")
     st.stop()
 
 
@@ -32,7 +32,7 @@ if "chain" not in st.session_state:
     )
 
 # 3️ UI: Title
-st.title("Your AI Code Assistant - Fast⚡and Context-Aware 🧠")
+st.title("Chad PPT")
 
 
 # 4️ Handle messages + display history
